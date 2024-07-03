@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Ajouter</h2>
+        <div class="menu">
+            <img src="menu.png" onclick="OpenNav()">
+        </div>
+        <div class="menuNav">
+            <nav class="slideNav" id="slideNav">
+                <a href="index.html">Tâches</a> <br>
+                <a href="add.html">Ajouter</a> <br>
+                <a href="about.html">A propos</a>
+    
+            </nav>
+        </div>
+    </header>
+    <main onclick="closeNav()">
+        <section class="taskToDo">
+                <input type="text" name="nom" id="nom" placeholder="Nom de la tâche">
+                <input type="text" name="description" id="description" placeholder="Description de la tâche">
+                <input type="date" name="date" id="date">
+                <input type="time" name="heure" id="heure">
+        </section>
+        <div class="addTask">
+            <button onclick="addTask()">Ajouter</button>
+        </div>
+       
+    </main>
+    </div>
+</body>
+</html>

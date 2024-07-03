@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 1.1rem;
+    max-width: 400px;
+}
+header{
+    height: 5em;
+    width: 100%;
+    max-width: 400px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 100;
+    top: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0em 0.2em 0 rgba(0, 0, 0, 0.543);
+}
+.menu{
+    padding-left: 9.5em;
+}
+.menuNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-top: -2em;
+    margin-right: -0.7em;
+}
+.slideNav{
+    display:none;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.591);
+    margin-top: 4em;
+    padding: 0.5em;
+    position: fixed;
+    transition: 0.3s;
+
+}
+.slideNav a{
+    padding-left: 0.7em;
+    text-decoration: none;
+    color: black;
+}
+section{
+    margin-top: 6em;
+    padding-bottom: 1em;
+
+}
+.task{
+    margin-top: 1em;
+    margin-left:0.5em ;
+    margin-right:0.5em ;
+    padding: 0.6em;
+    box-shadow: 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.543);
+    border-radius: 0.1em;
+}
+.taskToDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7em;
+    gap: 0.9em;
+}
+.taskToDo input{
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 1.1rem;
+    border-radius: 0.4em;
+    border: none;
+    background-color: beige;
+}
+.addTask{
+    display: flex;
+    justify-content: center;
+}
+.addTask button{
+    margin-top: 0.7em;
+    padding: 1em 4em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: burlywood;
+    font-size: 1.1rem;
+}
+.aboutContent{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.2rem;
+}
